@@ -4,3 +4,15 @@ img{
     /* 3개의 이미지는 총 6개의 여백을 가진다. */
     margin: calc(10%/6);
 }
+
+nav{
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 1.2em 0;
+    /*https://fonts.google.com/specimen/Raleway?query=raleway*/
+    font-family: 'Raleway', sans-serif;
+    /* 글꼴 크기에는 %를 사용하는 경우가 거의 없음 */
+    font-size: 1.5empx;
+}
