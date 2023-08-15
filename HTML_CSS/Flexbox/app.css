@@ -7,8 +7,17 @@ h1 {
 #container {
     background-color: #003049;
     width: 90%;
-    height: 500px;
+    height: 500px;              /*기본 크기를 지정했으므로 div의 크기가 있더라도 container의 크기에 맞추어 크기 변경*/
     margin: 0 auto;
     border: 5px solid #003049;
+    /*axix(축) 지정*/
+    display: flex;
+    /*flex-direction: row;        /*가로 축 지정*/
+    flex-direction: row-reverse;    /*가로 축 지정 후 역순으로 나열*/
+}
+
+#container div {
+    width: 200px;
+    height: 200px;
 }
 
