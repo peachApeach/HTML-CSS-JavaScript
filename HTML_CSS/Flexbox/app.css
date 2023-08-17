@@ -23,9 +23,10 @@ h1 {
     width: 200px;
     height: 200px;
     flex-basis: 200px;                      /*요소가 배치될 때 최초 크기*/
-    /*flex-grow: 1;                           /*모든 요소에 공간 비율 적용*/
+    flex-grow: 1;                           /*모든 요소에 공간 비율 적용*/
 }
 
 div:nth-of-type(5){
 	flex-grow: 1;           /*각 요소별 공간 비율 적용/*5번째 요소가 남은 공간을 차지*/
+    flex-shrink: 2;         /*각 요소들이 줄어드는 비율 통제. 숫자가 늘어날 수록 크기가 줆*/
 }
