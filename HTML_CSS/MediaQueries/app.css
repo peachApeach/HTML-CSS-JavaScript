@@ -16,5 +16,15 @@ ul,li {
     padding: 0;
 }
 
+@media (min-width: 800px) {                
+	h1 {
+		color : purple;
+	}
+}                            /*너비가 800px 이하일  아래 동작 수행 중지*/
 
+@media (min-width: 600px) and (max-width: 800px) {                
+	h1 {
+		color : purple;
+	}
+}   
 
